@@ -150,3 +150,36 @@ body {
   segundos =130; 
 minutos = Math.floor(segundos / 60; // resultado esperado: 2
 segundos %= 60; // resultados esperado : 10
+.contador {
+  display: flex;
+  justify-content: center;
+}
+.contador-digito {
+  padding: 0 16px;
+  text-align: center;
+}.contador-digito-numero {
+  font-size: 80px;
+  margin: 0;
+}.contador-digito-texto {
+  color: var(--verde);
+  font-size: 20px;
+  margin: 0;
+}.contador {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}.contador-digito {
+  padding: 0 16px;
+  text-align: center;
+  min-width: 100px;
+}.nome { font-size: 40px; }
+.especialidade { font-size: 12px; }
+.pedro { color: red; }
+.lara { color: green; }
+.sofia { color: blue; }
+
+div { display:inline-block; text-align:center; }.conteudo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
